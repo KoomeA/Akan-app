@@ -51,6 +51,15 @@
         text-align: center;
         padding: 6px;
     }
+    #form {
+        color: darkred;
+        font-size: 26px;
+        margin-left: 4rem;
+        padding: 2%;
+        font: 2em sans-serif;
+        text-align: center;
+        font-weight: 400;
+    }
 }
 #title {
     color: darkblue;
