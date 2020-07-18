@@ -29,18 +29,24 @@
     <div>
         <h3 id="form">Check your Akan Name here!</h3>
     </div>
-    <div class="input">
-        <form action="">
-            <label for="dob">Enter your Birthday</label> <br>
-            <input type="date"> <br>
-            <input type="radio" name="gender" id="male" value="gender">
-            <label for="male">Male</label> <br>
-            <input type="radio" name="gender" id="Female" value="gender">
-            <label for="Female">Female</label> <br>
-            <input type="button" value="submit">
-            
+    <div class="container">
+        <form action="" onsubmit="return checkResult()">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="dateofBirth">Enter your Birthday</label> <br>
+                    <input type="date" id="dateofBirth"> <br>
+                </div>
+                <div class="col-md-6">
+                    <p>Select Your Gender</p>
+                    <input type="radio" name="gender" id="male" value="gender">
+                    <label for="male">Male</label> <br>
+                    <input type="radio" name="gender" id="Female" value="gender">
+                    <label for="Female">Female</label> <br>
+                </div>
+            </div>
         </form>
     </div>
+     <button type="submit" id="submitBtn" class="button" >Submit</button>
     <div class="output">
         <p class="text text-center">Here's Your Akan Name</p>
         <div id="result">
