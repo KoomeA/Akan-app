@@ -83,6 +83,25 @@ body {
     color: darkred;
     font-size: 26px;
     margin-left: 4rem;
-    padding: 1%;
+    padding: 2%;
     font: 2em sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+.input {
+    background-color: darkgrey ;
+}
+.container {
+    background-color: rgb(75, 49, 17);
+    padding: 2%;
+    color: white;
+    font-size: 1.5rem;
+}
+.footer{
+    text-align: center;
+    color: rgb(70, 22, 22);
+    padding-top: 2rem;
+}
+.text{
+    font-size: 28px;
 }
