@@ -20,6 +20,11 @@
         text-align: center;
         padding: 6px;
     }
+    body {
+        margin: 2%;
+        background-color: rgb(202, 198, 139);
+
+    }
 }
 @media screen and (min-width: 768px) {
     .jumbotron {
@@ -69,7 +74,7 @@
 }
 body {
     margin: 2%;
-    background-color: rgb(202, 198, 139)
+    background-color: rgb(202, 198, 139);
 }
 .intro {
     font-size: 21px;
