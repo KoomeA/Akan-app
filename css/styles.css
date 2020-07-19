@@ -100,10 +100,12 @@ body {
     background-color: darkgrey ;
 }
 .container {
-    background-color: rgb(75, 49, 17);
-    padding: 2%;
+    background-color: rgb(145, 113, 74);
+    padding: 1%;
     color: white;
     font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 2%;
 }
 .footer{
     text-align: center;
@@ -112,4 +114,14 @@ body {
 }
 .text{
     font-size: 28px;
+}
+#get-name {
+    color: brown;
+    text-align: center;
+    float: right;
+    margin-right: 2rem;
+}
+#display-name {
+    text-align: center;
+    color: aliceblue;
 }
