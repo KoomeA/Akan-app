@@ -31,28 +31,41 @@
         <h3 id="form">Check your Akan Name here!</h3>
     </div>
     <div class="container">
-        <form action="" onsubmit="return checkResult()">
-            <div class="row">
-                <div class="col-md-6">
-                    <label for="dateofBirth">Enter your Birthday</label> <br>
-                    <input type="date" id="dateofBirth"> <br>
-                </div>
-                <div class="col-md-6">
-                    <p>Select Your Gender</p>
-                    <input type="radio" name="gender" id="male" value="gender">
-                    <label for="male">Male</label> <br>
-                    <input type="radio" name="gender" id="Female" value="gender">
-                    <label for="Female">Female</label> <br>
-                </div>
-            </div>
-        </form>
-       <button type="submit" id="submitBtn" class="button" onsubmit="" >Submit</button>
-    </div>
-     <div class="output">
-        <p class="text text-center">Here's Your Akan Name</p>
-        <div id="result">
 
-        </div>
+        <form class="myform" onsubmit="return getAkanName()">
+        <label for="year-of-birth">
+            Year:
+            <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+        </label>
+        <label for="month-of-birth">
+            Month:
+            <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+        </label>
+        <label for="day-of-birth">
+            Day:
+            <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+        </label>
+        <br>
+        <label for="gender">
+            <p>Select your gender: </p>
+                Male
+            <input id="male-input" type="radio" name="gender" value="male" required>
+                Female
+            <input id="female-input" type="radio" name="gender" value="female" required>
+        </label>
+        <br><br>
+        <input id="get-name" type="submit" name="" value="Submit">
+        <br><br>
+      </form>
+      <form onsubmit="return clearInput()">
+            <input class="clear" type="submit" value="Clear input">
+      </form>
+      
+    </div>
+    <div class="final">
+        <h4 id = display-name><strong>Your Akan Name is:</strong></h4>
+        <p id="result"></p>
+    </div>
         <div class="footer">
             <footer>
                 <p>Developed by Edward Koome@2020 All Rights Reserved</p>
