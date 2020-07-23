@@ -142,7 +142,8 @@ body {
 }
 #display-name {
     text-align: center;
-    color: aliceblue;
+    color: blue;
+    font-size: 26px;
 }
 input[type=number] {
     width: 100%;
@@ -170,4 +171,8 @@ img{
     margin-right: 22px;
     margin-bottom: 22px;
     padding: 22px;
+}
+#result {
+    color:  darkgreen;
+    padding: 16px;
 }
