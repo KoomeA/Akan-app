@@ -88,9 +88,10 @@ body {
 }
 
 .description {
-    line-height: 1rem;
+    line-height: 28px;
     font-size: 21px;
     padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #form {
@@ -114,8 +115,11 @@ body {
 }
 .footer{
     text-align: center;
-    color: rgb(70, 22, 22);
+    color: blue;
+    letter-spacing: 6px;
     padding-top: 2rem;
+    background-image: url(/images/Ghananian-culture.jpg);
+    padding: 2%;
 }
 .text{
     font-size: 28px;
@@ -167,4 +171,3 @@ img{
     margin-bottom: 22px;
     padding: 22px;
 }
-    
